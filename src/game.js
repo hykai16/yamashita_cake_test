@@ -46,8 +46,8 @@ $('#start').click(function(){
             clearInterval(appearID);
             $('.chara').prop('disabled', true);
             if(score > 10){
-                alert('割引クーポン:[dveghd]を入力！');
-            }else{
+                alert('割引クーポン:あいことばは【ご飯よりケーキ派】！\n店頭でお声がけください！');
+            }else
                 alert('残念！もう一度チャレンジしてみてね！');
             }
         } else {
